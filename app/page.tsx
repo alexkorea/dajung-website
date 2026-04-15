@@ -45,10 +45,10 @@ const services = [
 ]
 
 const stats = [
-  { value: "15+", label: "년 업력", icon: Clock },
-  { value: "1,000+", label: "누적 의뢰 건수", icon: Users },
-  { value: "98%", label: "고객 만족도", icon: TrendingUp },
-  { value: "30+", label: "전문 업무 분야", icon: Award },
+  { value: "5", label: "년 업력", icon: Clock },
+  { value: "322", label: "누적 의뢰 건수", icon: Users },
+  { value: "95%", label: "고객 만족도", icon: TrendingUp },
+  { value: "20", label: "전문 업무 분야", icon: Award },
 ]
 
 const processSteps = [
@@ -131,7 +131,7 @@ export default function HomePage() {
                 <span className="block text-primary">다정 행정사가 해결합니다</span>
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-secondary-foreground/80">
-                국세청 근무경력, 세무법인 근무 등 다양한 경험을 바탕으로
+                국세청 근무경력, 세무법인 근무 등 다양한 경험을 바탕으로{" "}
                 <br className="hidden sm:block" />
                 상담에서부터 각종 서류 작성/대행까지 종합적인 전문행정 서비스를 제공합니다.
               </p>
